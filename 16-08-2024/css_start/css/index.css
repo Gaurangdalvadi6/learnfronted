@@ -1,0 +1,86 @@
+p{
+    color: brown;
+    text-align: center;
+    line-height: 30px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Georgia';
+    
+}
+
+h3{
+    text-align: center;
+}
+
+a{
+   text-decoration: none; 
+   color: rgb(0, 128, 0);
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: black;
+}
+span{
+    text-decoration: underline;
+}
+
+/* h4{
+    font-family: 'League spartan';
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: double teal underline;
+    text-transform: uppercase;
+}
+
+h1{
+    color: blue;
+    letter-spacing: 5px;
+    background-color: pink;
+    text-align: center;
+    border: solid;
+    font-family:  'Arial Narrow Bold', sans-serif;
+    text-decoration: rgb(230, 0, 255) underline;
+}
+
+h2{
+    color: orange;
+    background-color: #0000ff;
+    text-align: center;
+}
+
+h3{
+    color: red;
+    text-align: right;
+    letter-spacing: 5px;
+    /* font-weight: 900; */
+}
+
+p{
+    color: black;
+    /* background-color: rgb(255, 0, 255); */
+    text-align: justify;
+    line-height: 1.2;
+    font-size: small;
+    /* font-weight: bold; */
+}
+
+button{
+    color: white;
+    background-color: rgb(255, 0, 255);
+}
+
+a{
+    text-decoration: none;
+} */
+
