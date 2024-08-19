@@ -1,0 +1,29 @@
+*{
+    font-family: 'courier new';
+}
+
+h1{
+    color: #1b74e4;
+}
+
+div{
+    background-color: aqua;
+}
+
+/* 
+form{
+    background-color: brown;
+} */
+
+input{
+    background-color: inherit;
+}
+
+button{
+    background-color: inherit;
+}
+
+button:hover{
+    background-color: red;
+}
+
