@@ -1,0 +1,25 @@
+section{
+    margin-top: 100px;
+}
+
+div{
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    background-color: darkgreen;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n){
+    background-color: darkgoldenrod;
+}
+
+div:nth-of-type(3n){
+    background-color: burlywood;
+}
+
+/* transform */
+#one{
+    transform: rotate(45deg);
+}
