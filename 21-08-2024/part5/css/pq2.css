@@ -1,0 +1,19 @@
+.navbar{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 2px solid rgb(0, 200, 255);
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.insider{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    font-size: 24px;
+    margin-left: 5px;
+    line-height: 45px;
+}
