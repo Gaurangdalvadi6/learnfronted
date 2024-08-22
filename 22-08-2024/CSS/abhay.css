@@ -1,0 +1,16 @@
+.add{
+    border-radius: 7px;
+    background-color: greenyellow;
+    border: 2px solid greenyellow;
+}
+
+.wishlist{
+    border-radius: 10px;
+    background-color: aliceblue;
+    padding: 5px 35px;
+}
+
+span{
+    color: red;
+    font-size: 15px;
+}
