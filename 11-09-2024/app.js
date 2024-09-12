@@ -1,5 +1,21 @@
-let message = "ILoveIndia";
-console.log(message.indexOf("a"));
+let name1 = "ApnaCollege";
+console.log("silce "+name1.slice(4,9));
+console.log("indexof "+name1.indexOf("na"));
+console.log("replace " +name1.replace("Apna","Our"));
+console.log(name1.slice(4));
+let newName=name1.slice(4).replace('l','t');
+console.log(newName);
+console.log(newName.replace('l','t'));
+
+// let msg = "help!";
+// console.log(msg.trim().toUpperCase());
+
+// let msg = "ILoveCoding";
+// let newMsg=msg.replace("Love","do");
+// console.log(newMsg);
+
+// let message = "ILoveIndia";
+// console.log(message.indexOf("a"));
 
 // function capitalizeWords(str) {
 //     return str.split(' ').map(word => {
