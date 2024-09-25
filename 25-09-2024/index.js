@@ -1,11 +1,50 @@
-const Person = {
-    name : "parth",
-    age : 15,
-    city : "ahmedabad"
+function multiply(n){
+    for (let i = 1; i <=10; i++) {
+        console.log(n +" * "+i+" = "+(n*i));
+    }
 }
-Person.city="New York";
-Person.country = "United states";
-console.log(Person);
+
+// function printInfo(name,age) {
+//     console.log(`${name}'s age is ${age}`);
+// }
+
+// function printName(name) {
+//     console.log(name);
+// }
+
+// function rollDice(){
+// let random = Math.floor(Math.random()*6)+1;
+// console.log(random);
+// }
+
+// rollDice();
+
+// function hello() {
+//     console.log("Hello");
+// }
+
+// function printName() {
+//     let name = prompt("Enter your name : ")
+//     console.log(name);
+// }
+
+// function print1To5(){
+//     for (let index = 1; index <= 5; index++) {
+//         console.log(index);
+//     }   
+// }
+
+// printName();
+// print1To5();
+
+// const Person = {
+//     name : "parth",
+//     age : 15,
+//     city : "ahmedabad"
+// }
+// Person.city="New York";
+// Person.country = "United states";
+// console.log(Person);
 
 // generate random from 1 to user given range
 
