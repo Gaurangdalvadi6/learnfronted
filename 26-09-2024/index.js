@@ -1,9 +1,40 @@
-let random = function(start,end){
-    let diff = end-start;
-    return Math.floor(Math.random()*diff)+start;
-}
+const sum = (a,b)=>{
+    return a+b;
+};
 
-console.log(random(100,500));
+console.log(sum(2,5));
+
+// console.log("Hello");
+// console.log("Hello");
+// let a=5;
+// try {
+//     console.log(a)
+// } catch(e){
+//     console.log("error due to the a is not defined");
+//     console.log(e);
+// }
+// console.log("Hello2");
+// console.log("Hello2");
+// console.log("Hello2");
+
+// const student = {
+//     name : "abhay",
+//     age : 21,
+//     eng : 95,
+//     maths : 99,
+//     phy : 75,
+//     calAvg(){
+//         let avg =Math.floor((this.eng+this.maths+this.phy)/3);
+//         console.log(avg);
+//     }
+// }
+
+// let random = function(start,end){
+//     let diff = end-start;
+//     return Math.floor(Math.random()*diff)+start;
+// }
+
+// console.log(random(100,500));
 
 // let str = "apna ghar apni pahechan";
 // let count =0;
