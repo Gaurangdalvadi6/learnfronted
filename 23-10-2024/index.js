@@ -1,20 +1,30 @@
-let modebtn = document.querySelector("#mode");
-let body = document.querySelector("body");
-let currMode = "light";
-
-modebtn.addEventListener("click",()=>{
-    if (currMode==="light") {
-        currMode="dark";
-        body.classList.remove("white");
-        body.classList.add("dark");
-    }else{
-        currMode="light";
-        body.classList.remove("dark");
-        body.classList.add("white");
+const student = {
+    fullName:"Gaurang",
+    marks:80,
+    printMarks: function(){
+        console.log(this.marks);
     }
+}
+student.printMarks();
 
-    console.log(currMode);
-});
+
+// let modebtn = document.querySelector("#mode");
+// let body = document.querySelector("body");
+// let currMode = "light";
+
+// modebtn.addEventListener("click",()=>{
+//     if (currMode==="light") {
+//         currMode="dark";
+//         body.classList.remove("white");
+//         body.classList.add("dark");
+//     }else{
+//         currMode="light";
+//         body.classList.remove("dark");
+//         body.classList.add("white");
+//     }
+
+//     console.log(currMode);
+// });
 
 // modebtn.addEventListener("mouseover",()=>{
 //     if (currMode==="light") {
