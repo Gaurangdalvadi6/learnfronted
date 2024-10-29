@@ -27,6 +27,10 @@ for (let select of dropdowns) {
     }
     select.append(newOption);
   } 
+
+  select.addEventListener("change", (event) => {
+    updateFlag(event.target);
+  });
 }
 
 const updateExchangeRate = async ()=>{
@@ -59,7 +63,5 @@ btn.addEventListener("click", (evt) => {
   updateExchangeRate();
 });
 
-select.addEventListener("change", (event) => {
-    updateFlag(event.target);
-  });
+
 
